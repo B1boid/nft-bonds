@@ -1,0 +1,12 @@
+[programs.devnet]
+nft_bonds = "A5t7p64hytJMzVxLg5JKM5QW4Foi9Qm77tR57KaDDcrK"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
